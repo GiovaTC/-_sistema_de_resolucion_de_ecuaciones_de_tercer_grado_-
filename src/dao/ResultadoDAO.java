@@ -97,5 +97,5 @@ public class ResultadoDAO {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }   
+    }
 }
