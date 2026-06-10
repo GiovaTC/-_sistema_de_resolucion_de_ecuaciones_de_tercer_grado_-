@@ -2,12 +2,16 @@ package modelo;
 
 public class Resultado {
 
+    private int id;
+
     private double a;
     private double b;
     private double c;
     private double d;
 
     private double raizReal;
+
+    public Resultado() {}
 
     public Resultado(double a,
                      double b,
@@ -20,6 +24,14 @@ public class Resultado {
         this.c = c;
         this.d = d;
         this.raizReal = raizReal;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public double getA() {
